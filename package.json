@@ -1,0 +1,23 @@
+{
+  "name": "ensemblejs-eventmatic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "sync": "aws s3 ls s3://ensemblejs-events/agg/"
+  },
+  "keywords": [
+    "auspex",
+    "capture",
+    "ensemblejs",
+    "event",
+    "game",
+    "metrics"
+  ],
+  "author": "Ryan Boucher",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.2.28"
+  }
+}
