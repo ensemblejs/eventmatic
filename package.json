@@ -19,7 +19,7 @@
       "es2015"
     ]
   },
-  "author": "Ryan Boucher",
+  "author": "Ryan Boucher <ryan.boucher@distributedlife.com>",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.2.31",

@@ -60,7 +60,7 @@ function findLatest (params) {
     .then(stripPrefix(params))
     .then(fileList => map(fileList, file => file.split('/')[1]))
     .then(uniq)
-    .then(sortBy)
+    .then(records => records.reverse())
     .then(first);
 }
 
